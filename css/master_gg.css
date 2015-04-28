@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*重置*/
+html{overflow-y:scroll;overflow-x:visible;}
+body{overflow:hidden;font-family:"Microsoft YaHei";color:#6D6E70;line-height:22px;}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,label,dl,dt,dd,fieldset,img {margin:0;padding:0;border:0;list-style:none}
+body{font:12px/20px 'Microsoft Yahei','宋体','微软雅黑',Arial,Lucida Grande,Tahoma,sans-serif;background:#921D75;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+cite,em{font-style:normal}
+a{text-decoration:none;outline:none;color:#666;}
+a:hover{text-decoration:none;color:#333;}
+label{cursor:pointer;}
+div,ul,ol.li,dl,dt,dd{zoom:1;}
+div:after,ul:after,ol:after,dl:after,dt:after,dd:after,li:after{content:".";display:block;clear:both;height:0;visibility:hidden;}
+input{vertical-align:-2px;_vertical-align:0px;margin:0px 4px 0px 0px;outline:none;}
+input,textarea{resize:none;outline:none;margin:0;padding:0px;border:0px;}
+
+/*公用图标*/
+.specialLogo a,
+.specialRelation a,
+.specialMain ul li a i{background:url(../images/actionIco24.png) no-repeat;}
+
+.specialInner{background:url(../images/specialInnerBg.jpg) no-repeat center top;}
+.specialHeader{overflow:hidden;position:relative;margin:0px auto;width:900px;height:173px;}
+.specialHeader h1{display:none;}
+.specialLogo{position:absolute;left:2px;top:9px;width:220px;height:50px;}
+.specialLogo a{display:block;height:50px;text-indent:-99999px;background-position:0px -150px;}
+.specialRelation{position:absolute;right:0px;top:138px;}
+.specialRelation a{display:block;float:right;display:inline;margin-right:16px;width:99px;height:32px;text-indent:-99999px;}
+.specialRelation a.specialLogin{background-position:0px -100px;}
+.specialRelation a.specialRegister{background-position:-121px -100px;}
+
+.specialMain{position:relative;overflow:hidden;width:900px;margin:0px auto;}
+.specialMain ul{position:relative;margin-top:-28px;padding:0px 0px 30px;}
+.specialMain ul li{position:relative;float:left;display:inline;margin:30px 15px 0px;width:270px;height:220px;background:#fff;
+	-webkit-box-shadow:0px 3px 7px #5F0E39;
+	-moz-box-shadow:0px 3px 7px #5F0E39;
+	box-shadow:0px 3px 7px #5F0E39;
+}
+.specialMain ul li a{display:block;padding:3px;}
+.specialMain ul li a img{display:block;width:264px;height:214px;}
+.specialMain ul li a i{cursor:pointer;position:absolute;left:50%;top:50%;margin-left:-36px;margin-top:-34px;width:69px;height:69px;text-indent:-99999px;background-position:0px 0px;}
+
+.specialFooter{background:#870868;}
+.specialFooter p{padding:5px 0px;text-align:center;color:#fff;}

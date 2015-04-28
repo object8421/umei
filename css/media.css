@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width:1180px){
+}
+@media screen and (min-width:1000px) and (max-width:1180px){
+/*全局页面的宽度*/
+.wrapper .inner{width: 1000px;margin: 0 auto;}
+/*首页中间的宽度*/
+.m-main .m-mstate  ul.mstate-list{ margin-right:-30px;}
+.m-main .m-mstate  ul.mstate-list li{ margin-right:28px;}
+.m-main .m-mlist ul.mstate-list{margin-right:-30px;}
+.m-main .m-mlist ul.mstate-list li{margin-right:30px;}
+/*主播页中间的宽度*/
+.l-main .l-menu{ width:310px;}
+.l-main p.l-whispers-m .txt{ width:240px;}
+}
+

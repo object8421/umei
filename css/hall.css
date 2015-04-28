@@ -1,0 +1,219 @@
+/*内容栏*/
+.content{position:relative;background:url(../images/hall/contentbg.gif) repeat-y;padding:0 10px;width:1120px;margin:0 auto;}
+
+/*左栏*/
+.line_typename span{float: left;cursor: pointer}
+.line_typename var{float: right;color: #ec45ee;font-size: 12px;white-space: nowrap;cursor: pointer;padding-right:5px;}
+
+/*
+.con_left{float:left;width:160px;overflow: hidden}
+.righticon1{display:  block;height:24px;background:url(../images/righticon.png) 0 0 no-repeat;text-indent: 27px;line-height:30px;overflow: hidden}
+.online_num{padding:10px}
+.online_num strong{font-size: 20px;color:#ec45ee;font-weight: normal;display: block;text-align: right;}
+.line{height:1px;background:url(../images/linebg.gif) center top no-repeat;overflow: hidden;margin:5px 0;}
+.right_title a{display: block;height:35px;line-height:35px;font-size: 16px;color: #323232;padding:0 10px 0 0;}
+.right_title a em{float:right;width:13px;height:16px;margin-top:10px;display: none;cursor: pointer}
+.right_title a .up{background:url(../images/moveicon.png) -88px -103px no-repeat;}
+.right_title a .down{background:url(../images/moveicon.png) -88px -85px no-repeat;}
+.right_title a:hover{background:url(../images/allbg.gif) no-repeat;text-decoration: none;color: #eb3ded}
+.right_title a:hover em{display: block;}
+.right_list a{font-size:14px;padding-left:42px}
+.right_title .subnow {color: #ec45ee;background: url(../images/allbg.gif) no-repeat;}
+.right_list .subnow{color: #ec45ee;background: url(../images/allbg.gif) no-repeat}
+.line_typename span{float: left;cursor: pointer}
+.line_typename var{float: right;color: #ec45ee;font-size: 12px;white-space: nowrap;cursor: pointer}
+.righticon2 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -25px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon3 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -60px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon4 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -98px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon5 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -136px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon6 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -166px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon7 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -202px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon8 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -238px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon9 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -270px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon10 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -319px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon11 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -355px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.righticon12 span{float:left;display:  block;height:35px;background:url(../images/righticon.png) 10px -392px no-repeat;line-height:35px;overflow: hidden;padding-left:42px;cursor:pointer}
+.right_title a:hover span{background-image: url(../images/righticon2.png?2014-0721-0107.png)}
+.right_title .category_title.subnow span{background-image: url(../images/righticon2.png)}
+.right_list a:hover span{background: none}
+.gong_List{padding:0 10px;}
+.gong_List p{line-height:28px;height:28px;overflow: hidden}
+.gong_List p a{color: #fd5a0a;word-break:break-all;word-wrap:break-word;}
+.more2{background:url(../images/linebg.gif) center bottom no-repeat;height:30px}
+.more2 a{background: none;font-size: 12px}
+.more2 a em{color: #ec45ee}
+.morebtn{float:right;margin-right:10px;font-size: 14px;color: #ec45ee;background: url(../images/moveicon.png) -88px -85px no-repeat;line-height:16px;padding-left:14px;margin-top: 4px;}
+.hot_list{padding:0 10px}
+.huo_list a{display:block;width:148px;height:44px;overflow: hidden;margin:5px auto 10px}
+.hot_list p{background:url(../images/qq.gif) 20px 0 no-repeat;height:17px;line-height:17px;color: #323232;padding-left:40px;margin:5px 0 13px;cursor: pointer}
+.hot_list .offlineqq{background-position: 20px -16px}
+.qqkf{padding-left: 17px;margin-top: -9px;width: 100%;height: 31px;}
+.box2_list{margin-top:15px;padding:0 14px 0 8px;width:100%}
+.box2_list li {height:30px;line-height:30px;font-size:14px;}
+.box2_list li a{display:block;height:30px;padding:0 10px;}
+.box2_list li a:hover{background:#f3f3f3;text-decoration:none;color:#4b4b4b;}
+.box2_list li span{float:left;cursor:pointer;height:30px;font-size: 12px;line-height: 30px;}
+.box2_list li a:hover span{background:url(../images/iconleft.gif) right 12px no-repeat;padding-right:15px;}
+.box2_list li em{float:right;color:#78adcf;cursor:pointer;}
+.box2_list img{float:left;margin:3px 15px 0 0;}
+#clientContent .box4_list li a img {vertical-align:middle;width:21px;height:21px;margin-right:5px;}
+#clientContent .box4_list{overflow:hidden;margin-top:0;zoom:1;}
+#clientContent .box4_list li {float:left;margin: 4px 20px 10px 0;}
+.kefu_index{color:#61c6ee;line-height:18px;padding-top:10px;}
+*/
+
+/*中栏*/
+.con_middle{float:left;width:730px;padding:0 10px 15px 20px;overflow: hidden}
+.con_middle .subcontentshow{display: block}
+.message{width:512px;height:35px;background:url(../images/messagebg.jpg) -10px 0 no-repeat;padding-left:50px;line-height:35px;position: relative;overflow: hidden;}
+.message a{color: #545454;display: block;height:35px;line-height:35px;display: table-cell;}
+.message span{color: #fd5a0a;}
+.message img{vertical-align: middle}
+.nav_son{height:24px;line-height:24px;position: relative;padding:15px 0;clear: both;}
+.nav_son span{float:left;width:94px;font-size: 16px;color: #323232;cursor: pointer;position: relative;text-indent: 0;}
+.nav_son span.subnow{text-indent: 25px;width: 119px;color: rgb(222, 86, 223);}
+.nav_son span:HOVER,.nav_son a:HOVER{color: rgb(222, 86, 223)}
+.nav_son .nav_son_now{color: #e45ce0}
+.moveicon{width:94px;height:18px;background:url(../images/moveicon.png) 0 0 no-repeat;position: absolute;top:20px;left:0}
+.moveicon2{width:94px;height:19px;background:url(../images/moveicon.png) 0 -21px no-repeat;position: absolute;top:20px;left:0}
+.nav1con{width:100%;overflow: hidden;display: none}
+.listcon2{float:left;height:35px;width:188px;margin-bottom: 15px}
+.listcon2_left{float:left;width:35px;height:35px;margin-right:5px}
+.listcon2_right{overflow: hidden;zoom:1;}
+.listcon2_right .list_name{height:21px;line-height:21px;overflow: hidden;}
+.listcon2_right .list_name a{color:#323232;word-break: break-all;word-wrap: break-word;}
+.listcon2_right p{line-height:14px;color:#989697;}
+.navotherlist{width:100%;}
+.listone{width:278px;float:left;margin: 10px 0;}
+.listone_left{float:left;width:129px;height:91px;overflow: hidden;position: relative;margin-right:10px;_margin-right:7px;}
+.listone_right{overflow: hidden;zoom:1;}
+.listone_right p{color: #646464;font-size: 12px;line-height: 26px}
+.listone_right .list_name{height:38px;line-height:38px;font-size: 14px;}
+.list_name img{vertical-align: middle}
+.list_name a{color: #fd5a0a;margin-left: 3px;overflow: hidden;width: 85px;height: 25px;}
+.listtwo{width:132px;height: 134px;float:left;margin:0 10px 20px 0;position: relative;}
+.listtwo_pho{width:132px;height:92px;overflow: hidden;position: relative;}
+.listtwo_name{height:20px;line-height:20px;overflow: hidden;margin-top:4px}
+.listtwo_name span{float:left;height:20px;margin-right:5px}
+.listtwo_name a{display:block;overflow: hidden;zoom:1;word-break:break-all;word-wrap:break-word;color: #646464;}
+.listtwo_name .ku-title{float: left;}
+.listtwo_name .ku{float: left;margin-right: 5px;}
+.listtwo_time{height:18px;line-height:18px;color: #989999}
+.listtwo_online{height: 18px;line-height: 18px;color: #646464;}
+.gaoqing{width:24px;height: 13px;background:url(../images/moveicon.png?2013-1223-1852.png) -75px -45px no-repeat;color:#fff;text-indent: 4px;position: absolute;top:0px;left:0px}
+.live_lock{background:url(../images/lock.png) no-repeat;position: absolute;top:1px;left:1px;width: 14px;height: 21px}
+.live_pay{background:url(../images/pay.png) no-repeat;position: absolute;top:1px;left:1px;width: 24px;height: 24px}
+.audience{position: absolute;bottom:0;right:0;width:85px;height:18px;line-height:18px;padding:0 5px;color:#fff;text-align: right;background:url(../images/moveicon.png?2013-1223-1852.png) 0 -67px}
+.song-container{display: inline-block;width: 132px;height: 18px;position: absolute;left: 0;bottom: 0;opacity:0.75;filter: alpha(opacity=75);background-color: #7a4c79;}
+.song-name{position: relative;bottom: 0;_bottom: 0;left: 0px;width: 132px;line-height: 18px;height: 18px;color: #fff;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;font-size: 12px;display: inline-block;cursor: pointer;}
+.song-name i{margin-left: 5px;margin-right: 3px;display: inline-block;font-size: 12px;}
+.fuchuang .song-container{width: 173px;}
+.fuchuang .song-name{width: 173px;}
+.fuchuang{background:#fff;border:1px solid #ffccff;position: absolute;top:-10px;left:-20px;z-index: 2;display: none}
+.fuchuang p{padding:0 5px}
+.fuchuang .listtwo_name a{color: #ff6600}
+.fuchuang .gaoqing{top:0;left:0}
+.fu_flash{width:173px;height:112px;background:#ccc;position: relative}
+.loveit{position: absolute;width:23px;height:19px;background: url(../images/moveicon.png?2013-1223-1852.png) -73px -124px no-repeat;bottom: 5px;right:5px}
+.newpeople{position: absolute;top:0;right: 0;}
+.contest{position: absolute;right: 0;bottom: 0;z-index:1;}
+.more .up{background: url(../images/moveicon.png) -88px -103px no-repeat;}
+.more .down{background: url(../images/moveicon.png) -88px -85px no-repeat;}
+.more .morebtn{display: none}
+.nav_son .more .morebtnshow{display: block}
+.h_moulist li{display: block;width: 485px;overflow: hidden;color: #666;margin-left: 50px;}
+.h_moulist li a{display:block;width:465px;overflow:hidden;color:#666;}
+.h_moulist li a *{cursor:pointer;}
+.h_moulist li a:hover *{text-decoration:underline;cursor:pointer;}
+.h_moulist li em{display:inline-block;}
+.h_moulist li var{position:absolute;width:60px;margin-left:10px;}
+.h_gift{float:left;width:22px;height:22px;background:url(../images/paoche.png?2013-05-30.png) no-repeat;margin-top:3px;}
+.h_moulist li var label{float:left;}
+.h_moulist li span span{color:#ef0098}
+.h_gonggao{color:#ff6600}
+.aNow2{color: rgb(222, 86, 223);}
+.singer-attr {float: left; padding-bottom: 15px;}
+.singer-attr li {float: left; width: 120px;height:20px; font-size: 14px; margin: 5px 5px;word-break: break-all;word-wrap: break-word;overflow: hidden;}
+.singer-attr li em {color: #ec45ee;}
+.singer-attr li a {text-decoration: none;}
+.singer-attr li a:HOVER {color: #fff; background-color: #ec45ee;}
+.singer-attr li a:HOVER em {color: #fff;}
+.attr-active {color: #fff; background-color: #ec45ee;}
+a.attr-active em {color: #fff;}
+
+/*右栏*/
+.con_right{float:right;width:200px;padding:0 -30px}
+.personal_pho{padding:10px 0}
+.personal_pho p{overflow: hidden;zoom:1;color:#555;line-height:27px;height:27px;overflow: hidden}
+.personal_pho p img{vertical-align: middle}
+.presonal_name a{color: #fd5a0a;font-size:14px}
+.per_photo{float:left;width:76px;height:76px;overflow: hidden;margin-right:10px;_margin-right:7px;}
+.pre_rich{clear: both;}
+.pre_rich div{height:33px;line-height:33px; color: #646464}
+.pre_rich div span{float: left;}
+.pre_rich div em{float:left;}
+.pre_rich div strong{float:left;color: #ff7519;font-weight: normal;width:80px;height:33px;overflow: hidden}
+.pre_rich .top_kudou{margin:10px 5px 0 0}
+.pre_rich .top_xiubi{margin:9px 6px 0 0}
+.pre_rich a{float: left;color: #de56e0;text-decoration:underline}
+.loadway{width:200px;height:158px;background:url(../images/loadway.gif) no-repeat;position: relative}
+.loadway a{position: absolute;}
+.qqlog{width:98px;height:83px;top:0;left:0;}
+.qqkuwo{width:101px;height:83px;top:0;right:0;}
+.qqsina{width:98px;height:74px;top:84px;left:0}
+.newuser{width:101px;height:74px;top:84px;right:0}
+.loadway .qqlog:hover{background-position: 0 -162px;background:url(../images/loadway.gif) 0 -162px no-repeat}
+.loadway .qqkuwo:hover{background-position: -99px -162px;background:url(../images/loadway.gif) -99px -162px no-repeat}
+.loadway .qqsina:hover{background-position: 0 -256px;background:url(../images/loadway.gif) 0 -246px no-repeat}
+.loadway .newuser:hover{background-position: -99px -256px;background:url(../images/loadway.gif) -99px -246px no-repeat}
+.rightbtn{text-align: center;padding:20px 0 20px}
+.redbtn{display: inline-block;width:81px;height:27px;background:url(../images/redbtn.png) no-repeat;line-height:27px;text-align: center;font-size:14px;color: #fff;margin:0 5px;}
+.redbtn:hover{text-decoration: none;background-position:0 -27px}
+.line3{height:1px;background:url(../images/hall/linebg3.gif) center top no-repeat;overflow: hidden;margin:5px 0;}
+.right_bound{padding: 0 10px;}
+.right_bound h2{line-height:36px;color: #323232;height:36px;font-weight: normal;font-size: 16px}
+.bound_nav{height:16px;background: #e0e0e7;padding:1px;margin-bottom: 6px;}
+.bound_nav a{float:left;width:44px;height:16px;line-height:16px;color:#323232;text-align: center;}
+.bound_nav a:hover{text-decoration: none;color: #c844cd;}
+.bound_nav .bound_navnow{color: #c844cd;background:#fff;}
+.bound_normal{height:27px;line-height:27px;position:relative;padding: 2px 0}
+.normal_num {float: left;background: url(../images/hall/moveicon.png) -21px -111px no-repeat ;width:14px;height:14px;line-height:14px;text-align: center;color: #fff;margin:6px 5px 0 0}
+.normal_name{float:left;color: #474747}
+.bound_normal img{float: right;}
+.bound_especial{height:64px;}
+.especial_num{background:url(../images/moveicon.png) 0 -111px;width:21px;height:64px;float: left;line-height:64px;text-indent: 3px;font-size: 20px;color: #fff;}
+.especial_pho{float:left;width:64px;height:64px;overflow: hidden;margin-right:5px;_margin-right:2px}
+.especial_name{display: block;overflow: hidden;zoom:1;color:#ff6132;height:34px;line-height:34px;}
+.bound_level{position:absolute;top:5px;right:0;width:50px;text-align:center}
+.bound_level img{float:none}
+.bound_level span{color: #3c3c3c}
+.bound_bigpho{display:none;height:64px;float:left;margin-right:5px;width:64px}
+.bound_especial2{height:64px;padding-top: 7px}
+.bound_especial2 .bound_bigpho{display:block;}
+.bound_especial2 .bound_level{position:static;float:none;}
+.bound_normal p{line-height:27px;}
+.bound_especial2 p{line-height:34px;height:34px;overflow:hidden;zoom:1;}
+.bound_especial2 p a{color:#ff6132;}
+.bound_especial2 .normal_num{background:url(../images/moveicon.png) 0 -111px;width:21px;height:64px;float: left;line-height:64px;text-indent: 1px;font-size: 20px;color: #fff;text-align:left;margin-top:0}
+/*首页友情链接*/
+.partnerlink{margin: 0 auto;clear: both}
+.newfoot_topout{border-top:1px solid #d3d3d3}
+.newfoot_top{color:#3d3d3d;width:1000px;margin:0 auto;padding:9px 0 0;}
+.consociation_title3{line-height:39px;height:39px;font-size: 18px;font-weight: normal}
+.consociation_title3 a{color:#ec45ee;margin-left: 10px;font-size: 14px;float: right;}
+.newfoot_toplist1{overflow: hidden;zoom:1;border-bottom:1px solid #fff;padding-bottom: 17px}
+.newfoot_toplist1 .eql_prop{max-width:88px;max-height:31px;_width:88px;_height:31px}
+.newfoot_top li{height:31px;line-height:21px;float:left;width:100px;overflow:hidden;}
+.partnerlink li a{color: #3d3d3d}
+.newfoot_toplist2{overflow: hidden;zoom:1;border-top:1px solid #bedce6;padding:17px 0 0}
+
+
+
+/*页面底部*/
+.newfoot{margin:40px auto 0;clear: both;} 
+.newfoot_bottom{width:1000px;margin:0 auto;}
+.newfoot_bot_left{float:left;width:172px;padding:58px 0 0 30px;height:113px;}
+.newfoot_bot_right{overflow: hidden;zoom:1;padding-top:26px;}
+.newfoot_bot_right p{color:#3d3d3d;line-height:22px;}
+.newfoot_bot_right .newfoot_rightnav{color:#000}
+.newfoot_bot_right .newfoot_rightnav a{color:#3d3d3d;}

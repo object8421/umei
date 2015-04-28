@@ -1,0 +1,34 @@
+.logo a{display: block;width:147px;height:41px;background: url(../images/logo.png) no-repeat}
+.logo{float:left;width:160px;height:47px;margin:3px 7px 0 14px;display: inline;}
+
+/*公用样式*/
+body,h1,h2,h3,h4,h5,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px "Microsoft YaHei",arial,sans-serif;}
+address,cite,dfn,em,var{font-style:normal;}
+ul,ol,li{list-style:none;}
+img{border:0 none;;} 
+.fl{ float:left;} .fr{ float:right;} .fb{ font-weight:bold;} .tr{ text-align:right;}.dis{display:block;}.mr10{margin-right:10px}.pd10{padding:0 10px;}
+.h10{height:10px;font-size:0;overflow:hidden;clear:both;}
+a{text-decoration:none;color:#000;}
+a:hover{text-decoration:underline;} 
+.demo:after,.demo2:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.demo,.demo2{*+height:1%;}
+
+/*top样式*/
+.top{height:57px;background:#1f0a31 url(../images/topbg.jpg) center top no-repeat;}
+.topcon{width:1000px;margin:0 auto;height:57px;position: relative;}
+
+.nav{float:left;position: relative;top:21px}
+.nav a{float:left;position: relative;z-index:1;padding:0 10px;height:34px;line-height:37px;overflow: hidden;font-size:16px;color:#ffa8ff;}
+.nav a:hover{color: #fff;text-decoration: none;}
+.nav a.navnow{color: #fff}
+.topright{float:right;padding-right:10px;position: absolute;right: 0;top: 0;width: 800px;}
+.top_center{height:28px;line-height:28px;}
+.top_center a{color:#fff;margin-left:5px}
+.top_center em{float:right;}
+
+.center{
+	width: 960px;
+	margin-left : auto;
+	margin-right : auto;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "umweb-remote",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "crafty": "~0.6.3",
+    "fauxconsole": "http://icant.co.uk/sandbox/fauxconsole/fauxconsole.zip",
+    "jQuery.Marquee": "https://github.com/aamirafridi/jQuery.Marquee.git#~1.3.2"
+  }
+}

@@ -1,0 +1,320 @@
+#gift_message .pink{
+    color: #00FFAD!important;
+}
+#gift_message a>span {
+    float: left;
+}
+#gift_message span.gift {
+  position: absolute;
+}
+.spmsg_a img {
+    margin-bottom: -7px;
+    width: 24px;
+    height: 21px;
+}
+#gift_message .user_name {
+    color: #01C4EA!important;
+}
+.liveScrollEle span a{
+    color: #F69A00;
+}
+#video_zone {
+    width: 480px;
+    height: 360px;
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+    text-align: center;
+}
+
+.Centerer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.Centered {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*
+#gift_zone
+{
+	width:480px; 
+	height:185px; 
+	margin:0px; 
+	padding:0px;
+	list-style:none; 
+	overflow-y:scroll;
+}
+
+#bullet_zone
+{
+	width:100%; 
+	height:30px;
+	margin:0px; 
+	padding:0px;
+	background:#cccccc; 
+	float:left;
+}
+*/
+
+#bullet_zone {
+    width: 100%;
+    height: 25px;
+    margin: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
+    float: left;
+}
+
+#chat_pub {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: 100%;
+}
+
+#chat_prv {
+    width: 100%;
+    height: 172px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#m_nickname {
+    margin-top: 4px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+}
+
+.system {
+    color: #99F;
+    font-size: 12px
+}
+
+.user {
+    color: #00F;
+}
+
+.red {
+    color: #f00;
+}
+
+/* å³é”®èœå•æ ·å¼*/
+.oncontextmenu {
+    display: none;
+    font-size: 14px;
+    position: absolute;
+    z-index: 555px;
+    width: 120px;
+    zoom: 1;
+    padding: 1px;
+    background: #ebe9ee;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 5px 10px 10px #ebe9ee;
+}
+
+.oncontextmenu a {
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+.oncontextmenu a:hover {
+    color: red;
+    background: #ebe9ee;
+}
+
+.oncontextmenu hr {
+    margin: 0px 2px 0px 20px;
+    width: 100%;
+    color: #333;
+    border: thin;
+    height: 1px;
+    text-align: center;
+}
+
+#xchat {
+    /*
+        display:none;
+    */
+    width: 1px;
+    height: 1px;
+}
+
+.member {
+    width: 100%;
+    margin: 0px;
+    /*
+    margin-top:4px;
+    */
+    padding: 0px;
+    /*
+    border:1px #D4D4D4 solid;
+    */
+    border-bottom: 1px #DDDDDD solid;
+    background: #FFFFFF;
+    font-size: 12px;
+}
+
+.m1 {
+    width: 100%;
+    height: 14px;
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    text-overflow: clip;
+    color: #666666;
+    font-size: 12px;
+}
+
+.m2 {
+    width: 100%;
+    height: 18px;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-overflow: clip;
+    color: #666666;
+    font-size: 12px;
+    /*
+    background-color: rgba(2, 2, 2, 0.5);
+    */
+}
+
+.m2_img {
+    vertical-align: bottom;
+}
+
+.m2_gid {
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+    /*
+    color: #660000;
+    background-color: rgba(25, 25, 25, 0.5);
+    */
+}
+
+.gift_show {
+    z-index: 99;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.0);
+    left: 1px;
+    top: 1px;
+}
+
+#gift_zone img {
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+#sperker {
+    display: none;
+    height: 100px;
+    width: 150px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 999px;
+}
+
+#user_count, #admin_count {
+    font-size: 9px;
+}
+
+/*fan list*/
+.l-main .l-fans ul.menu {
+    background: #f3f3f3;
+}
+
+.l-main .l-fans ul.menu li {
+    float: left;
+}
+
+.l-main .l-fans ul.menu li a {
+    display: block;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "Microsoft yahei";
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.l-main .l-fans ul.menu li.hover a {
+    color: #fff;
+    background: #b40069;
+}
+
+/*gift list
+*/
+.l-main .l-menu ul.l-list li {
+    height: 24px;
+    border-bottom: 1px #DDDDDD solid;
+}
+
+.l-main .l-menu ul.l-list li .gift_img {
+    float: left;
+    width: 100px;
+}
+
+.l-main .l-menu ul.l-list li .count {
+    float: left;
+    width: 40px;
+}
+
+.l-main .l-menu ul.l-list li .total {
+    float: left;
+    width: 80px;
+}
+
+.l-main .l-menu ul.l-list li .nickname {
+    margin-right: 10px;
+    float: right;
+}
+
+#con_two_2 {
+    margin: 20px auto;
+    overflow-x: hidden;
+    overflow: auto;
+    max-height: 460px;
+}
+
+#emotion_button {
+    margin: 0px;
+}
+
+#emotion_button img {
+    margin-top: -15px;
+}
+
+#emotion_pan {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    z-index: 999px;
+    width: 400px;
+    background: #ffffff;
+    border: 1px #cccccc solid;
+}
+
+#emotion_pan img {
+    margin: 2px;
+    width: 24px;
+    height: 24px;
+}

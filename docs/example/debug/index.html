@@ -1,0 +1,48 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>t</title>
+
+
+<script src="http://new.uumie.cn/room/script/swfobject.js"></script>
+
+</head>
+
+<body>
+ <div id="flash"></div>
+
+<script type="text/javascript">
+	var flashvars = {};
+		flashvars = {
+			url:"rtmp://112.124.12.112:19350/uu89",
+			gid:201803,
+			uid:435,
+			level:35435,
+			token:"",
+			nickname:"",
+			splash:"",
+			bps : 90,
+			vq : 1
+			};
+		
+		var params = {};
+		params.quality = "high";
+		params.bgcolor = "#57799c";
+		params.allowscriptaccess = "always";
+		params.allowfullscreen = "true";
+		params.wmode = "transparent";
+		var attributes = {};
+		attributes.id = "recv";
+		attributes.name = "recv";
+		attributes.align = "middle";
+   swfobject.embedSWF("recv.swf?t="+Math.random(), "flash", 480, 360, "11.1.0", "playerProductInstall.swf", flashvars, params, attributes);
+	//swfobject.embedSWF("Main.swf?t="+Math.random(), "flash", 465, 292, "11.1.0", "playerProductInstall.swf", {}, {"wmode":"transparent"}, {});
+
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+/*°ïÖúÖÐÐÄ¸Ä°æ*/
+/*°ïÖúÖÐÐÄ
+*/
+.helpTit{ height:50px; overflow:hidden;_zoom:1; border-bottom:1px solid #e5f6fd; margin-bottom:5px;}
+.helpTit span{ height:50px; font:18px/50px "Î¢ÈíÑÅºÚ";float:left; color:#6a6a6a;}
+.quse{ height:30px; overflow:hidden;_zoom:1; font:14px/27px "Î¢ÈíÑÅºÚ"; color:#6a6a6a; float:right; margin:12px 5px 0 0;}
+.helpList{ overflow:hidden;_zoom:1; border-bottom:1px solid #e5f6fd; padding-bottom:30px;}
+.helpPk{ width:300px; height:20px; float:left; font:14px/20px "ËÎÌå"; color:#010101; overflow:hidden; float:left; margin-top:15px;}
+.helpPk a{color:#269;}
+.helpPk a.def{color:#ff6600;}
+.whatHp{ border-bottom:1px dashed #d3d3d3; font:14px/40px "ËÎÌå"; overflow:hidden;_zoom:1; margin-top:10px;}
+.whatHp span{ font-weight:bold; float:left;}
+.whatHh{border-bottom:1px dashed #d3d3d3; font:14px/40px "ËÎÌå"; overflow:hidden;_zoom:1; margin-top:10px; padding-bottom:20px;}
+.whatHh span{ font-weight:bold; float:left;}
+.whatHh img{ float:left; margin-top:10px;}
+body,h1,h2,h3,h4,h5,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px "Microsoft YaHei",arial,sans-serif;}
+address,cite,dfn,em,var{font-style:normal;}
+ul,ol,li{list-style:none;}
+img{border:0 none;}
+a{ text-decoration:none;}
+a:hover{text-decoration:none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+
+.helpLevel{width:756px;font-family: "simsun"}
+.helpLevel h2{font-weight: normal;color: #da1492;height:70px;line-height:70px;font-size: 14px;text-align: center;}
+.helpLevel table{width:100%;font-size: 14px;text-align: center;border:2px solid #ff81d1;color:#686872;border-collapse:collapse;}
+.helpLevel table th{border:2px solid #ff81d1;background:#ffe0f4;height:40px;text-align: center;font-weight: bold}
+.helpLevel table td{border:1px solid #cecece;height:40px;line-height:40px}
+.helpLevel table td em{color: #ff3d24;font-weight: bold}
+.helpLevel table td img{margin-right:10px;vertical-align: middle}
+.levelHaveBg{background:#fff3fb}
+
+
+.helpTit{ border-bottom:none;}
+.helpTit span{ font-size:14px;}
+.quse{ _display:inline; float:left; margin:9px 5px 0 10px;}
+.helpList{ border-bottom:none;}
+.helpList p{ width:100%; margin-bottom:30px;}
+.helpList p em, .helpList span a{ background:url(help_icon.gif) no-repeat;}
+.helpList em{ display:block; height:24px; line-height:24px; padding-left:10px; color:#4e4e4e; font-size:18px; background-position:0 0;}
+.helpList span{ display:block; float:left; width:229px; height:26px; margin-top:10px; padding:0 10px; line-height:26px; font-size:14px; overflow:hidden;}
+.helpList span a{ padding-left:5px; color:#595959; background-position:0 -26px;}
+.helpList span a:hover{ color:#319de8; background-position:0 -52px;}
+.help_tit{ margin-top:20px;}
+.help_tit em{background: url(help_icon.gif) no-repeat 0 0;display: block;padding-left: 10px;color: #4e4e4e;font-size: 18px;}

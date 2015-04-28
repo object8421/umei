@@ -1,0 +1,9 @@
+{
+  "name": "Test Doc Site",
+  "description": "Test Doc Site",
+  "version": "0.0.1",
+  "options": {
+    "outdir": "docs/code-doc",
+    "paths": "docs/code-doc"
+  }
+}

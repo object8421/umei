@@ -1,0 +1,852 @@
+body {
+	background: #f8f8f8
+		url(images/top_body_bg_v1.jpg) repeat
+}
+
+#pf {
+	margin-top: 30px;
+	background: 0
+}
+
+.fp-box .hd,.fp-chartTop .bd {
+	overflow: hidden
+}
+
+.modTab {
+	height: 32px;
+	margin-top: 12px;
+	border: 1px solid #e9e9e9;
+	border-bottom: 0
+}
+
+.modTab li {
+	float: left
+}
+
+.modTab li a {
+	width: 76px;
+	height: 32px;
+	float: left;
+	display: block;
+	color: #666;
+	line-height: 32px;
+	text-decoration: none;
+	border-right: 1px solid #e9e9e9;
+	text-align: center
+}
+
+.modTab li a.last {
+	border: 0
+}
+
+.modTab li a:hover,.modTab li a.on {
+	color: #333;
+	font-weight: bold;
+	background: #fff
+}
+
+.modTab li a.on {
+	cursor: default;
+	height: 33px;
+	position: relative;
+	z-index: 1
+}
+
+.mod13 {
+	width: 270px;
+	margin-top: 8px
+}
+
+.mod13 .mh {
+	padding-top: 1px
+}
+
+.mod13 .mh h2 {
+	height: 26px;
+	line-height: 32px;
+	margin: 6px 0 0 0;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #666
+}
+
+.mod13 .mh h2 em {
+	width: 81px;
+	height: 26px;
+	display: inline-block;
+	float: left;
+	margin-right: 12px;
+	background: url(/images/topnum_bg.png)
+		no-repeat
+}
+
+.mod13 .mh h2 em.n2 {
+	background-position: 0 -26px
+}
+
+.mod13 .mh h2 em.n3 {
+	background-position: 0 -52px
+}
+
+.mod13 .mh h2 em.n4 {
+	background-position: 0 -78px
+}
+
+.mod13 .mh h2 em.n5 {
+	background-position: 0 -104px
+}
+
+.mod13 .mh h2 em.n6 {
+	background-position: 0 -130px
+}
+
+.mod13 .mh h2 span.all {
+	color: #FF75C8
+}
+
+.mod13 .mh h2 span.week {
+	color: #E8B356
+}
+
+.mod13 .mh h2 span.month {
+	color: #6BD1C8
+}
+
+.mod13 .mb {
+	border: 1px solid #e9e9e9;
+	background: #fff;
+	margin-top:10px;
+}
+
+#topAll .mb,#topWeek .mb,#topMonth .mb {
+	margin-top: 12px
+}
+
+.mod14 {
+	width: 100%;
+	margin-top: 28px;
+	background: #fff
+}
+
+.mod14 .mh {
+	position: relative
+}
+
+.mod14 .mh h2 {
+	font-size: 16px
+}
+
+.mod14 .mb {
+	padding: 10px 7px 11px
+}
+
+.topGift {
+	border-top: 3px solid #e9e9e9;
+	border-top: 0
+}
+
+#topGift,#lasttopGift {
+	border-top: 3px solid #df61ab
+}
+
+#preWeekGift,#lastpreWeekGift {
+	border-top: 3px solid #f2ab2f
+}
+
+#topGift .mh,#topGift .mb,#lasttopGift .mh,#lasttopGift .mb,#preWeekGift .mh,#preWeekGift .mb,#lastpreWeekGift .mh,#lastpreWeekGift .mb
+	{
+	border-right: 1px solid #e9e9e9;
+	border-left: 1px solid #e9e9e9
+}
+
+.topGift .mh span {
+	color: #999;
+	position: absolute;
+	right: 15px;
+	top: 18px
+}
+
+.topGift .mh h2 img {
+	background: url(images/topListIco.png)
+		no-repeat 0 -30px;
+	display: inline-block;
+	width: 25px;
+	height: 32px;
+	margin-right: 6px
+}
+
+.topGift h2.rank {
+	height: 56px;
+	line-height: 56px;
+	background: 0;
+	border-bottom: 1px solid #e9e9e9;
+	font-weight: normal;
+	font-size: 18px;
+	color: #666
+}
+
+.topGift h2.rank a {
+	display: inline-block;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	color: #999;
+	padding: 0 30px;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: "微软雅黑"
+}
+
+.topGift h2.rank a:hover {
+	color: #f09
+}
+
+.topGift h2.rank a.on {
+	color: #333;
+	top: 1px;
+	border-bottom: 1px solid #fff;
+	cursor: default
+}
+
+.topGift span {
+	margin: 0 2px;
+	color: #F1079E
+}
+
+.topGift h2.rank i {
+	display: inline-block;
+	width: 1px;
+	height: 56px;
+	line-height: 56px;
+	background: #e9e9e9;
+	margin-top: -5px
+}
+
+#top {
+	padding-top: 15px
+}
+
+#top .col1 {
+	width: 250px;
+	margin-right: 15px;
+	margin-left:17px;
+	float: left
+}
+
+#top .col2 {
+	width: 250px;
+	margin-right: 15px;
+	margin-left:17px;
+	margin-top:10px;
+	float: left
+}
+
+#top .col3 {
+	width: 374px;
+	float: left
+}
+
+#top .colx {
+	padding: 1px 0 0 0;
+	clear: both;
+	zoom: 1
+}
+
+#top .N2 {
+	background-position: -310px -360px
+}
+
+#top .N3 {
+	background-position: -310px -380px
+}
+
+#topStar .tList .r {
+	width: 42px;
+	text-align: right
+}
+
+{
+width
+:
+42px;text-align
+:right
+}
+#topRich h2 {
+	background-position: -270px -60px
+}
+
+#topRich .tList .r {
+	width: 40px;
+	text-align: right
+}
+
+#topRich .tList li.c25 {
+	height: 20px;
+	padding: 3px
+}
+
+#topRich .tList li.c25 .r {
+	width: 47px
+}
+
+#topPopular h2 {
+	background-position: -407px -60px
+}
+
+#topPopular .tList .r {
+	text-align: right
+}
+
+.topGift .mb {
+	padding: 20px 0 0 0;
+	overflow: hidden
+}
+
+.topGift .tList {
+	width: 332px;
+	border-right: 1px solid #f1f1f1;
+	padding: 0 30px;
+	float: left
+}
+
+.topGift .tList li {
+	height: 50px;
+	padding: 0
+}
+
+.topGift .tList li:hover {
+	background: #fbfbfb
+}
+
+.topGift .tList .l {
+	width: 156px;
+	height: 38px;
+	line-height: 38px;
+	margin: 6px 0;
+	display: inline
+}
+
+.topGift .tList .l span {
+	float: left;
+	width: 22px;
+	height: 22px;
+	padding: 8px;
+	margin: 0 3px 0 0;
+	background: url("images/room_watchtop_v2.png")
+		no-repeat;
+	zoom: 1
+}
+
+.topGift .tList .l span i {
+	vertical-align: top
+}
+
+.topGift .tList .r {
+	width: 144px;
+	height: 18px;
+	line-height: 18px;
+	padding: 16px 0;
+	text-align: right
+}
+
+.topGift .tList .r i {
+	margin: 0
+}
+
+.topGift .last {
+	border: 0
+}
+
+.topGift a {
+	color: #666
+}
+
+.topGift a:hover {
+	color: #f09
+}
+
+.tList li {
+	height: 38px;
+	padding: 0 22px 0 0;
+	*zoom: 1;
+	_font-family: "宋体";
+	border-bottom: 1px solid #f1f1f1;
+	clear: both
+}
+
+.tList li:hover {
+	background: #f9f9f9
+}
+
+.tList li .l {
+	height: 28px;
+	line-height: 38px
+}
+
+.tList li .l .hit {
+	color: purple;
+	font-weight: normal
+}
+
+.tList li .l a {
+	color: #666
+}
+
+.tList li .l a:hover {
+	color: #f09;
+	background: 0;
+	text-decoration: underline
+}
+
+.tList li .r {
+	width: 55px;
+	float: right;
+	height: 38px;
+	line-height: 38px
+}
+
+.tList li .r i {
+	_margin-top: 10px
+}
+
+.tList li.first {
+	height: 42px;
+	border-bottom: 1px solid #f1f1f1;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.tList li.second,.tList li.third {
+	height: 42px
+}
+
+.tList li.second .l,.tList li.second .r,.tList li.third .l,.tList li.third .r
+	{
+	height: 42px;
+	line-height: 42px
+}
+
+.tList li.last {
+	border: 0
+}
+
+.tList li.first .pic {
+	width: 60px;
+	margin: 12px 6px 0 0;
+	float: left
+}
+
+.tList li.first .pic img {
+	width: 54px;
+	height: 54px;
+	padding: 1px;
+	border-radius: 4px
+}
+
+.tList li.first .pic img:hover {
+	border: 1px solid #f09;
+	padding: 0
+}
+
+.tList li.first dl {
+	float: left;
+	margin-top: 12px
+}
+
+.tList li.first dl dt {
+	display: block;
+	padding: 5px 0 0 0
+}
+
+.tList li.first dl dd {
+	padding: 5px 0 0 0
+}
+
+.tList li.first .pic a:hover {
+	background: 0
+}
+
+.tList li.first .redBag {
+	background: url(/images/redBag.png)
+		no-repeat 0 0;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 18px;
+	display: inline-block
+}
+
+.tList li .num {
+	float: left;
+	width: 47px;
+	height: 18px;
+	line-height: 38px;
+	margin-right: 15px;
+	color: #999;
+	border-right: 1px solid #f1f1f1;
+	text-align: center;
+	position: relative;
+	font-family: helvetica;
+	font-size: 14px;
+	top: -1px;
+	left: -1px;
+	_top: 0
+}
+
+.tList li.first .num {
+	height: 44px;
+	line-height: 44px;
+	z-index: 2;
+	position: relative
+}
+
+.tList li.second .num {
+	height: 44px;
+	line-height: 44px
+}
+
+.tList li.third .num {
+	height: 44px;
+	line-height: 44px
+}
+
+#topStar .tList li.first .num,#topAll .tList li.first .num {
+	background-color: #ff75c8;
+	color: #fff;
+	border-right-color: #ff75c8
+}
+
+#topStar .tList li.second .num,#topAll .tList li.second .num {
+	background-color: #ff98d6;
+	color: #fff;
+	border-right-color: #ff98d6
+}
+
+#topStar .tList li.third .num,#topAll .tList li.third .num {
+	background-color: #ffc1e6;
+	color: #fff;
+	border-right-color: #ffc1e6
+}
+
+#topRich .tList li.first .num,#topWeek .tList li.first .num {
+	background-color: #e8b356;
+	color: #fff;
+	border-right-color: #e8b356
+}
+
+#topRich .tList li.second .num,#topWeek .tList li.second .num {
+	background-color: #eec680;
+	color: #fff;
+	border-right-color: #eec680
+}
+
+#topRich .tList li.third .num,#topWeek .tList li.third .num {
+	background-color: #f5ddb3;
+	color: #fff;
+	border-right-color: #f5ddb3
+}
+
+#topPopular .tList li.first .num,#topMonth .tList li.first .num {
+	background: #6bd1c8
+		url(/images/popular_top_cup.png)
+		no-repeat right bottom;
+	border-right-color: #6bd1c8
+}
+
+#topPopular .tList li.second .num,#topMonth .tList li.second .num {
+	background-color: #90ddd6;
+	color: #fff;
+	border-right-color: #90ddd6
+}
+
+#topPopular .tList li.third .num,#topMonth .tList li.third .num {
+	background-color: #bceae6;
+	color: #fff;
+	border-right-color: #bceae6
+}
+
+.tList .bean {
+	width: 16px;
+	height: 16px;
+	background: url(/images/bean_white.png)
+		no-repeat 0 0
+}
+
+.N1 {
+	background-position: 0 0
+}
+
+.N2 {
+	background-position: 0 -20px
+}
+
+.N3 {
+	background-position: 0 -40px
+}
+
+.N4 {
+	background-position: 0 -60px
+}
+
+.N5 {
+	background-position: 0 -80px
+}
+
+.N6 {
+	background-position: 0 -100px
+}
+
+.N7 {
+	background-position: 0 -120px
+}
+
+.N8 {
+	background-position: 0 -140px
+}
+
+.N9 {
+	background-position: 0 -160px
+}
+
+.N10 {
+	background-position: -30px 0
+}
+
+.N11 {
+	background-position: -30px -20px
+}
+
+.N12 {
+	background-position: -30px -40px
+}
+
+.N13 {
+	background-position: -30px -60px
+}
+
+.N14 {
+	background-position: -30px -80px
+}
+
+.N15 {
+	background-position: -30px -100px
+}
+
+.N16 {
+	background-position: -30px -120px
+}
+
+.N17 {
+	background-position: -30px -140px
+}
+
+.N18 {
+	background-position: -30px -160px
+}
+
+.N19 {
+	background-position: -60px 0
+}
+
+.N20 {
+	background-position: -60px -20px
+}
+
+.sCell {
+	width: 469px;
+	float: left
+}
+
+.sCell h3 {
+	padding: 5px 10px;
+	border-bottom: 1px solid #E9E9E9;
+	background: #F1F1F1;
+	font-size: 13px;
+	color: #000
+}
+
+.sCell .bd {
+	padding: 5px 10px;
+	position: relative;
+	zoom: 1
+}
+
+.sCell .bd p {
+	line-height: 20px
+}
+
+.sCell .photo {
+	width: 86px;
+	margin: 0 10px 0 0;
+	float: left
+}
+
+.sCell .photo img {
+	width: 78px;
+	height: 77px;
+	padding: 3px;
+	border: 1px solid #D5D1D2
+}
+
+.sCell .miclist {
+	width: 126px
+}
+
+.sCell .miclist img {
+	width: 120px;
+	height: 85px
+}
+
+.sCell .bio {
+	padding: 4px 0 0 0;
+	clear: both;
+	color: #848484
+}
+
+.sCell .bio span {
+	color: #000
+}
+
+.sCell .f {
+	padding-top: 10px
+}
+
+.sCell .act {
+	width: 80px;
+	position: absolute;
+	right: 40px;
+	top: 24px
+}
+
+
+.sCell .act a.fav {
+	width: 76px;
+	background-position: -300px -5200px
+}
+
+
+.sCellLast h3 {
+	background-image: none;
+	border-right: 1px solid #E9E9E9
+}
+
+.pagelist {
+	padding: 10px 0;
+	text-align: center;
+	color: #D4D4D4;
+	zoom: 1;
+	position: relative;
+	clear: both
+}
+
+
+.pagelist a:first-child {
+	background: 0
+}
+
+.pagelist a.on {
+	color: #FD6303
+}
+
+.pagelist a.next {
+	padding: 0
+}
+
+.pagelist a.pre {
+	padding: 0 8px 0 8px;
+	position: relative;
+	right: -8px
+}
+
+
+.pagelist a.pre img {
+	background-position: 0 -700px
+}
+
+.pagelist a.no {
+	background: 0
+}
+
+.pagelist b {
+	display: inline
+}
+
+.armytop .side {
+	float: left;
+	width: 196px;
+	padding-top: 69px
+}
+
+.armytop .main {
+	float: right;
+	width: 960px
+}
+
+.armytop-fixed {
+	position: fixed;
+	top: 10px
+}
+
+.armytop-tab {
+	padding: 28px 26px;
+	width: 142px;
+	border: 1px solid #e9e9e9;
+	background: #fff
+}
+
+.armytop-tab dl {
+	border-left: 1px solid #e5e5e5;
+	padding-bottom: 8px
+}
+
+.armytop-tab dd {
+	padding-top: 8px
+}
+
+.armytop-tab a {
+	position: relative;
+	display: block;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 25px;
+	color: #999
+}
+
+.armytop-tab .ico {
+	position: absolute;
+	left: -3px;
+	top: 7px;
+	width: 5px;
+	height: 11px;
+	background: #fff;
+	overflow: hidden
+}
+
+.armytop-tab .ico i {
+	display: block;
+	height: 5px;
+	width: 5px;
+	margin: 3px 0;
+	background: #c5c5c5;
+	overflow: hidden
+}
+
+
+
+.armytop-tab a:hover .ico i {
+	background: #6bd1c8
+}
+
+
+
+.armytop-tab a.on .ico {
+	height: 31px;
+	top: -3px
+}
+
+.armytop-tab a.on .ico i {
+	height: 25px;
+	background: #6bd1c8
+}
+
+
