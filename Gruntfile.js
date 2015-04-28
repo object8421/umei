@@ -134,6 +134,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-regex-replace');
     grunt.registerTask('default', ['yuidoc', 'readme', 'plato']);
+
     grunt.registerTask('build', function (arg1, arg2) {
         if (arguments.length === 0) {
             return grunt.log.error(this.name + ", no args");
